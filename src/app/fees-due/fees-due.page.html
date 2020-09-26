@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-toolbar>
+    
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="home" icon="chevron-back-outline"></ion-back-button>
+    </ion-buttons>
+   
+    <ion-title class="ion-text-center" >Students with Fees due</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content fullscreen>
+  <ion-row style="height: 30px"></ion-row>
+  <div class="center">
+    <img src="/assets/pending.svg" >
+  </div>   
+  
+  <ion-infinite-scroll threshold="100px" id="infinite-scroll">
+    <ion-infinite-scroll-content loading-spinner="circular" loading-text="Loading more data...">
+    </ion-infinite-scroll-content>
+  </ion-infinite-scroll>
+   
+  <script type="text/javascript" src="data.js"></script>
+  
+
+</ion-content>

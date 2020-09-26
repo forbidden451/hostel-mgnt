@@ -1,0 +1,48 @@
+<ion-header>
+  <ion-toolbar>
+
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="home" icon="chevron-back-outline"></ion-back-button>
+    </ion-buttons>
+    
+    <ion-title>Pay Fees</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-row style="height: 30px"></ion-row>
+  <div class="center">
+     <img src="/assets/pay.svg" >
+   </div>   
+   <ion-row style="height:30px"></ion-row>
+   <ion-label style="padding-left:15px"> Enter the details ::. </ion-label>
+   <ion-row style="height:10px"></ion-row>
+
+   <ion-row style="height:30px"></ion-row>
+   
+   <ion-item>
+    <ion-label position="floating">Enter PRN number ::.</ion-label>
+    <ion-input></ion-input>
+   </ion-item>
+   
+   <ion-row style="height:5px"></ion-row>
+   <ion-item>
+    <ion-label position="floating">Enter Name of student ::.</ion-label>
+    <ion-input></ion-input>
+   </ion-item>
+
+   <ion-row style="height:5px"></ion-row>
+   <ion-item>
+    <ion-label position="floating">Enter Amount paid ::.</ion-label>
+    <ion-input></ion-input>
+   </ion-item>
+
+  <ion-row style="height:10px"></ion-row>
+   <ng-container>
+    <ion-list style="text-align:center">
+      <ion-button expand="block" fill="clear" color="transparent">Submit</ion-button>
+    </ion-list>
+  </ng-container>
+
+
+</ion-content>

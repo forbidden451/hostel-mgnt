@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar>
+
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="home" icon="chevron-back-outline"></ion-back-button>
+    </ion-buttons>
+   
+    <ion-title>Fees Management</ion-title>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-row style="height: 30px"></ion-row>
+  <div class="center">
+     <img src="/assets/leader.svg" >
+   </div>   
+    
+   <ion-row style="height: 70px"></ion-row>
+   <ion-button (click)="make_payment()" expand="block">Pay Fees</ion-button>
+
+   <ion-row style="height: 20px"></ion-row>
+   <ion-button (click)="p_fees()" expand="block">Fees Paid</ion-button>
+   
+  <ion-row style="height: 20px"></ion-row>
+  <ion-button (click)="pending_fees()" expand="block">Fees Due</ion-button>
+     
+</ion-content>
